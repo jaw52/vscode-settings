@@ -154,5 +154,5 @@
   "prettier.enable": false, // I only use Prettier for manually formatting
   "prettier.printWidth": 200,
   "prettier.semi": false,
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": true
 }
