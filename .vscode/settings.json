@@ -1,11 +1,8 @@
 {
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.iconTheme": "file-icons",
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-
-  // Editor
   "editor.accessibilitySupport": "off",
-  "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.guides.bracketPairs": "active",
   "editor.inlineSuggest.enabled": true,
@@ -13,6 +10,8 @@
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "JetBrains Mono,Consolas, 'Courier New', monospace",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
@@ -26,7 +25,6 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.value": 5,
-  "workbench.list.smoothScrolling": true,
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
   "extensions.ignoreRecommendations": true,
@@ -63,7 +61,6 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
-
   // Extension configs
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
@@ -150,9 +147,18 @@
   "svg.preview.mode": "svg",
   "volar.autoCompleteRefs": false,
   "volar.completion.preferredTagNameCase": "pascal",
-  "windicss.enableCodeFolding": false,
   "prettier.enable": false, // I only use Prettier for manually formatting
   "prettier.printWidth": 200,
   "prettier.semi": false,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "windicss.enableCodeFolding": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
